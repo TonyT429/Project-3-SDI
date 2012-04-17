@@ -46,8 +46,8 @@ console.log("No, I think that should be enough coffee to get me through all the 
 			"truck and is waiting at the door for him.  As I open the door to let Kye out, I see the Jerry is ",
 			"not alone.  He's brought a couple of friends, Shaun and Sam, to help out.  ");
 			
-var useData = function (json1) {
-	console.log(json1);
+var useData = function (json) {
+	console.log(json);
 };
 
 useData(json1);
