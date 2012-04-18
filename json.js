@@ -8,19 +8,19 @@ var json1 = {
 		{
 			"name": "George", 
 			"ride":	"green dragon",
-			"weapon": "shotgun",
+			"weapon": "12 gauge shotgun",
 			"age": "25"
 		},
 		{
 			"name": "Jerry", 
 			"ride": "red dragon",
-			"weapon": "crossbow",
+			"weapon": "44 magnum",
 			"age": "25"
 		},
 		{ 
 			"name": "Shaun",
 			"ride": "blue dragon", 
-			"weapon": "bow and arrows",
+			"weapon": "45 automatic",
 			"age": "27" 
 		},
 		{ 
@@ -32,3 +32,31 @@ var json1 = {
 	]
 };
 
+var json2 = {
+	"dragons": [
+		{
+			"name": "Emerald", 
+			"color": "green",
+			"type":	"water dragon",
+			"attack": "spit corrosive acid"
+		},
+		{
+			"name": "Blaze", 
+			"color": "red",
+			"type": "fire dragon",
+			"attack": "vomit napalm"
+		},
+		{ 
+			"name": "Bolt",
+			"color": "blue",
+			"type": "electric dragon", 
+			"attack": "breath lightning"
+		},
+		{ 
+			"name": "Sleet", 
+			"color": "white",
+			"type": "ice dragon",
+			"attack": "spray cryonic blasts"
+		 }
+	]
+};
