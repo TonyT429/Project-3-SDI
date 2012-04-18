@@ -96,8 +96,16 @@ var useData = function (json) {
 
 useData(json1);
 
-
+console.log('Ahh," says the old man, "and here are your steeds now.  I will let them introduce themselves."');
 			
+var useData = function (json) {
+	for (var i = 0; i < json.dragons.length; i++) {
+		var dragon = json.dragons[i];
+	console.log("I'm " + dragon.name + ", say the " + dragon.color + " dragon and I am a  " + dragon.type + ", and my method of attack is I " + dragon.attack + ".");
+		}
+};
+
+useData(json2);
 
 
 
