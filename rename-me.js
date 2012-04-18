@@ -49,7 +49,7 @@ console.log("No, I think that should be enough coffee to get me through all the 
 			" He's brought a couple of friends, Shaun and Sam, to help out.");
 			
 console.log('"Hey guys!", I say as they pile out of the truck.  "Hey George!  Hi Kye, how\'s the boy?", says Sam',
-			'"Guys, I\'ve had a LOT of coffee, so lemme go to the can and I\'ll be ready to help with the unload.',
+			'"Guys, I\'ve had a LOT of coffee as I waited for you, so lemme go to the can and I\'ll be ready to help with the unload.',
 			'Cool! say Jerry.  So I head back into the house, head to the can and do my business.  As I step out of',
 			'of the bathroom, I shake my head, "Hey Guys?! Am I seein\' things? Where did that door come from?"',
 			'There on what was previously a solid wall, is a door.  Jerry, Sam, and Shaun all look at the door',
