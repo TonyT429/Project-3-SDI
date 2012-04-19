@@ -6,6 +6,12 @@
 var pots = [ "Kona", "Komodo Dragon", "Sumatra" ];
 	totalcupsPerPot = [ 5, 5, 4 ]; 
 	makePot = false;
+	rifleRounds = 12;
+	shotShells = 10;
+	magRounds = 10;
+	clips45 = 2;
+	
+	
 	
 console.log("It's the first day that I moved into my new house.  The house is old and ",
 			"tucked away in the woods.  The house is a two story, three bedrooms, an ",
@@ -49,7 +55,8 @@ console.log("No, I think that should be enough coffee to get me through all the 
 			" He's brought a couple of friends, Shaun and Sam, to help out.");
 			
 console.log('"Hey guys!", I say as they pile out of the truck.  "Hey George!  Hi Kye, how\'s the boy?", says Sam',
-			'"Guys, I\'ve had a LOT of coffee as I waited for you, so lemme go to the can and I\'ll be ready to help with the unload.',
+			'"Guys, I\'ve had a LOT of coffee as I waited for you',
+			', so lemme go to the can and I\'ll be ready to help with the unload.',
 			'Cool! say Jerry.  So I head back into the house, head to the can and do my business.  As I step out of',
 			'of the bathroom, I shake my head, "Hey Guys?! Am I seein\' things? Where did that door come from?"',
 			'There on what was previously a solid wall, is a door.  Jerry, Sam, and Shaun all look at the door',
@@ -106,6 +113,32 @@ var useData = function (json) {
 };
 
 useData(json2);
+
+console.log('"Ummm... okay, just to understand this, you dragons each have an attack method? If that is so, why are do you need us? ',
+			'I mean, sure, we have weapons but why would even need us?", asked Jerry.  "Each of our attack methods have a limitation, ',
+			'when we use our attacks, we do not have an unlimited supply and it takes time to replenish our energy.", replied Sleet. ',
+			'So how many times can you use your attacks?" "Usually once a day, possibly more if the attacks are minor, but they ',
+			'seldom are." "So we come in when you have expended your attack, is that it?", asks Shaun.  "Something like that", say the ',
+			'old man.  "Well if that\'s the case, how much ammo do we have?", asks Jerry.');
+
+var totalAmmo;
+
+function ourAmmo ( ) {
+	console.log(rifleRounds);
+	totalAmmo = (rifleRounds + shotShells + magRounds + (clips45 * 8));
+	console.log(totalAmmo + "totalAmmo");
+}
+
+console.log(ourAmmo + "ourAmmo");
+
+
+
+
+//var ammo = (rifleRounds + shotgunShells + magnumRounds + (clips45 * 8))
+//	console.log('"We have a total of '+ ammo + ' rounds, I hope that is enough"');
+			  			
+
+
 
 
 
