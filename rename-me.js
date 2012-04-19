@@ -121,21 +121,24 @@ console.log('"Ummm... okay, just to understand this, you dragons each have an at
 			'seldom are." "So we come in when you have expended your attack, is that it?", asks Shaun.  "Something like that", say the ',
 			'old man.  "Well if that\'s the case, how much ammo do we have?", asks Jerry.');
 
-var totalAmmo;
-
-function ourAmmo ( ) {
-	console.log(rifleRounds);
-	totalAmmo = (rifleRounds + shotShells + magRounds + (clips45 * 8));
-	console.log(totalAmmo + "totalAmmo");
-}
-
-console.log(ourAmmo + "ourAmmo");
 
 
+var useData = function (json) {
+	for (var i = 0; i < json.buddies.length; i++) {
+		var buddy = json.buddies[i];
+	console.log(buddy.name + 'says, "I\'ve got ' + buddy.ammo + ' rounds for the ' + buddy.weapon + '".');
+		}
+};
 
+useData(json1);
 
-//var ammo = (rifleRounds + shotgunShells + magnumRounds + (clips45 * 8))
-//	console.log('"We have a total of '+ ammo + ' rounds, I hope that is enough"');
+var useData = function (json) {
+	var ammo = (rifleRounds + shotShells + magRounds + (clips45 * 8 ));
+	console.log('"So we have a total of '+ ammo + ' rounds, I hope that is enough", says Jerry.');
+};
+
+useData(json1); 
+
 			  			
 
 

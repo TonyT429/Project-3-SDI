@@ -9,28 +9,33 @@ var json1 = {
 			"name": "George", 
 			"ride":	"green dragon",
 			"weapon": "12 gauge shotgun",
-			"age": "25"
+			"age": "25",
+			"ammo": 12
 		},
 		{
 			"name": "Jerry", 
 			"ride": "red dragon",
 			"weapon": "44 magnum",
-			"age": "25"
+			"age": "25",
+			"ammo": 10
 		},
 		{ 
 			"name": "Shaun",
 			"ride": "blue dragon", 
 			"weapon": "45 automatic",
-			"age": "27" 
+			"age": "27", 
+			"ammo": 10
 		},
 		{ 
 			"name": "Sam", 
 			"ride": "white dragon",
 			"weapon": "rifle",
-			"age": "24"
+			"age": "24",
+			"ammo": 2
 		 }
 	]
-};
+};	
+	
 
 var json2 = {
 	"dragons": [
@@ -60,3 +65,9 @@ var json2 = {
 		 }
 	]
 };
+
+
+var shotShells = 10;
+	magRounds = 10;
+	clips45 = 2;
+	rifleRounds = 12;
